@@ -36,3 +36,8 @@ apps/**/dist/
 libs/**/dist/
 
 /out/
+
+.angular/cache/
+
+**/angular-webpack/
+**/babel-webpack/
