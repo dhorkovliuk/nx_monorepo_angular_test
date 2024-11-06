@@ -1,0 +1,226 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m2.38 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m383.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m315.38 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m [96m19.35 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.54 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m3.09 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-06T12:21:07.496Z[39m[37m[22m - Hash: [1m[37m3cff717692da3a54[39m[37m[22m - Time: [1m[37m4942[39m[37m[22mms[0m[39m
+[1m[33m[39m[22m
+[1m[33m[0m[36m./apps/angular-14-crud-example/src/styles.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./apps/angular-14-crud-example/src/styles.css[39m[33m[0m - [0m[33mWarning: [39m[33m[0mModule Warning (from ./node_modules/postcss-loader/dist/cjs.js):[39m[22m
+[1m[33mWarning[39m[22m
+[1m[33m[39m[22m
+[1m[33m(3786:3) autoprefixer: Replace color-adjust to print-color-adjust. The color-adjust shorthand is currently deprecated.[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/app.module.ts[0m:[93m15[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'AddTutorialComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m     AddTutorialComponent,[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-14-crud-example/src/app/components/add-tutorial/add-tutorial.component.ts[0m:[93m10[0m:[93m14[0m[39m[22m
+[1m[31m    [7m10[0m export class AddTutorialComponent {[39m[22m
+[1m[31m    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'AddTutorialComponent' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/app.module.ts[0m:[93m16[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'TutorialDetailsComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m16[0m     TutorialDetailsComponent,[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-14-crud-example/src/app/components/tutorial-details/tutorial-details.component.ts[0m:[93m11[0m:[93m14[0m[39m[22m
+[1m[31m    [7m11[0m export class TutorialDetailsComponent implements OnInit {[39m[22m
+[1m[31m    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'TutorialDetailsComponent' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/app.module.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'TutorialsListComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m17[0m     TutorialsListComponent[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/an[39m[22m[1m[31mgular-14-crud-example/src/app/components/tutorials-list/tutorials-list.component.ts[0m:[93m10[0m:[93m14[0m[39m[22m
+[1m[31m    [7m10[0m export class TutorialsListComponent implements OnInit {[39m[22m
+[1m[31m    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'TutorialsListComponent' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/add-tutorial/add-tutorial.component.ts[0m:[93m2[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module 'src/app/models/tutorial.model' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { Tutorial } from 'src/app/models/tutorial.model';[39m[22m
+[1m[31m[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/add-tutorial/add-tutorial.component.ts[0m:[93m3[0m:[93m33[0m - [91merror[0m[90m TS2307: [0mCannot find module 'src/app/services/tutorial.service' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m import { TutorialService } from 'src/app/services/tutorial.service';[39m[22m
+[1m[31m[7m [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/add-tutorial/add-tutorial.component.ts[0m:[93m19[0m:[93m23[0m - [91merror[0m[90m NG2003: [0mNo suitable injection token for parameter 'tutorialService' of class 'AddTutorialComponent'.[39m[22m
+[1m[31m  Consider using the @Inject decorator to specify an injection token.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m19[0m   constructor(private tutorialService: TutorialService) { }[39m[22m
+[1m[31m[7m  [0m [91m                      ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-14-crud-example/src/app/components/add-tutorial/add-tutorial.component.ts[0m:[93m19[0m:[93m40[0m[39m[22m
+[1m[31m    [7m19[0m   constructor(private tutorialService: TutorialService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                                       ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    This type does not have a value, so it cannot be used as injection token.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[39m[22m[1m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorial-details/tutorial-details.component.ts[0m:[93m2[0m:[93m33[0m - [91merror[0m[90m TS2307: [0mCannot find module 'src/app/services/tutorial.service' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { TutorialService } from 'src/app/services/tutorial.service';[39m[22m
+[1m[31m[7m [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorial-details/tutorial-details.component.ts[0m:[93m4[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module 'src/app/models/tutorial.model' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m4[0m import { Tutorial } from 'src/app/models/tutorial.model';[39m[22m
+[1m[31m[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorial-details/tutorial-details.component.ts[0m:[93m24[0m:[93m13[0m - [91merror[0m[90m NG2003: [0mNo suitable injection token for parameter 'tutorialService' of class 'TutorialDetailsComponent'.[39m[22m
+[1m[31m  Consider using the @Inject decorator to specify an injection token.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m     private tutorialService: TutorialService,[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-14-crud-example/src/app/components/tutorial-details/tutorial-details.component.ts[0m:[93m24[0m:[93m30[0m[39m[22m
+[1m[31m    [7m24[0m     private tutorialService: TutorialService,[39m[22m
+[1m[31m    [7m  [0m [96m                             ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    This type does not have a value, so it cannot be used as injection token.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorials-list/tutorials-list.component.ts[0m:[93m2[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module 'src/app/models/tutorial.model' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { Tutorial } from 'src/app/models/tutorial.model';[39m[22m
+[1m[31m[7m[39m[22m[1m[31m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorials-list/tutorials-list.component.ts[0m:[93m3[0m:[93m33[0m - [91merror[0m[90m TS2307: [0mCannot find module 'src/app/services/tutorial.service' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m import { TutorialService } from 'src/app/services/tutorial.service';[39m[22m
+[1m[31m[7m [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorials-list/tutorials-list.component.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m NG2003: [0mNo suitable injection token for parameter 'tutorialService' of class 'TutorialsListComponent'.[39m[22m
+[1m[31m  Consider using the @Inject decorator to specify an injection token.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m17[0m   constructor(private tutorialService: TutorialService) { }[39m[22m
+[1m[31m[7m  [0m [91m                      ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-14-crud-example/src/app/components/tutorials-list/tutorials-list.component.ts[0m:[93m17[0m:[93m40[0m[39m[22m
+[1m[31m    [7m17[0m   constructor(private tutorialService: TutorialService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                                       ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    This type does not have a value, so it cannot be used as injection token.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m2.38 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m27.28 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.54 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m2 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-06T12:23:33.727Z[39m[37m[22m - Hash: [1m[37m33dbef9476c3bfb2[39m[37m[22m - Time: [1m[37m382[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/app.module.ts[0m:[93m16[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'TutorialDetailsComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m16[0m     TutorialDetailsComponent,[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-14-crud-example/src/app/components/tutorial-details/tutorial-details.component.ts[0m:[93m11[0m:[93m14[0m[39m[22m
+[1m[31m    [7m11[0m export class TutorialDetailsComponent implements OnInit {[39m[22m
+[1m[31m    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'TutorialDetailsComponent' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/app.module.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'TutorialsListComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m17[0m     TutorialsListComponent[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-14-crud-example/src/app/components/tutorials-list/tutorials-list.component.ts[0m:[93m10[0m:[93m14[0m[39m[22m
+[1m[31m    [7m10[0m export class TutorialsListComponent implements OnInit {[39m[22m
+[1m[31m    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'TutorialsListComponent' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorial-details/tutorial-details.component.ts[0m:[93m2[0m:[93m33[0m - [91merror[0m[90m TS2307: [0mCannot find module 'src/app/services/tutorial.service' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { TutorialService } from 'src/app/services/tutorial.service';[39m[22m
+[1m[31m[7m [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[39m[22m[1m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorial-details/tutorial-details.component.ts[0m:[93m4[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module 'src/app/models/tutorial.model' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m4[0m import { Tutorial } from 'src/app/models/tutorial.model';[39m[22m
+[1m[31m[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorial-details/tutorial-details.component.ts[0m:[93m24[0m:[93m13[0m - [91merror[0m[90m NG2003: [0mNo suitable injection token for parameter 'tutorialService' of class 'TutorialDetailsComponent'.[39m[22m
+[1m[31m  Consider using the @Inject decorator to specify an injection token.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m     private tutorialService: TutorialService,[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-14-crud-example/src/app/components/tutorial-details/tutorial-details.component.ts[0m:[93m24[0m:[93m30[0m[39m[22m
+[1m[31m    [7m24[0m     private tutorialService: TutorialService,[39m[22m
+[1m[31m    [7m  [0m [96m                             ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    This type does not have a value, so it cannot be used as injection token.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorials-list/tutorials-list.component.ts[0m:[93m2[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module 'src/app/models/tutorial.model' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { Tutorial } from 'src/app/models/tutorial.model';[39m[22m
+[1m[31m[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorials-list/tutorials-list.component.ts[0m:[93m3[0m:[93m33[0m - [91merror[0m[90m TS2307: [0mCannot find module 'src/app/services/tutorial.service' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m import { TutorialService } from 'src/app/services/tutorial.se[39m[22m[1m[31mrvice';[39m[22m
+[1m[31m[7m [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-14-crud-example/src/app/components/tutorials-list/tutorials-list.component.ts[0m:[93m17[0m:[93m23[0m - [91merror[0m[90m NG2003: [0mNo suitable injection token for parameter 'tutorialService' of class 'TutorialsListComponent'.[39m[22m
+[1m[31m  Consider using the @Inject decorator to specify an injection token.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m17[0m   constructor(private tutorialService: TutorialService) { }[39m[22m
+[1m[31m[7m  [0m [91m                      ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-14-crud-example/src/app/components/tutorials-list/tutorials-list.component.ts[0m:[93m17[0m:[93m40[0m[39m[22m
+[1m[31m    [7m17[0m   constructor(private tutorialService: TutorialService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                                       ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    This type does not have a value, so it cannot be used as injection token.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m48.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.54 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-06T12:23:34.083Z[39m[37m[22m - Hash: [1m[37m2e0dc10342fb89f0[39m[37m[22m - Time: [1m[37m326[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m

@@ -1,0 +1,95 @@
+{
+  "name": "angular-14-crud-example",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "generators": {},
+  "sourceRoot": "apps/angular-14-crud-example/src",
+  "prefix": "app",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "options": {
+        "outputPath": "dist/apps/angular-14-crud-example",
+        "index": "apps/angular-14-crud-example/src/index.html",
+        "main": "apps/angular-14-crud-example/src/main.ts",
+        "polyfills": "apps/angular-14-crud-example/src/polyfills.ts",
+        "tsConfig": "apps/angular-14-crud-example/tsconfig.app.json",
+        "assets": [
+          "apps/angular-14-crud-example/src/favicon.ico",
+          "apps/angular-14-crud-example/src/assets"
+        ],
+        "styles": [
+          "apps/angular-14-crud-example/src/styles.css"
+        ],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "apps/angular-14-crud-example/src/environments/environment.ts",
+              "with": "apps/angular-14-crud-example/src/environments/environment.prod.ts"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "browserTarget": "angular-14-crud-example:build:production"
+        },
+        "development": {
+          "browserTarget": "angular-14-crud-example:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "angular-14-crud-example:build"
+      }
+    },
+    "test": {
+      "executor": "@angular-devkit/build-angular:karma",
+      "options": {
+        "main": "apps/angular-14-crud-example/src/test.ts",
+        "polyfills": "apps/angular-14-crud-example/src/polyfills.ts",
+        "tsConfig": "apps/angular-14-crud-example/tsconfig.spec.json",
+        "karmaConfig": "apps/angular-14-crud-example/karma.conf.js",
+        "assets": [
+          "apps/angular-14-crud-example/src/favicon.ico",
+          "apps/angular-14-crud-example/src/assets"
+        ],
+        "styles": [
+          "apps/angular-14-crud-example/src/styles.css"
+        ],
+        "scripts": []
+      }
+    }
+  }
+}
