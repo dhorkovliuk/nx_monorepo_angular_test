@@ -5,8 +5,8 @@ export function Table(props: any) {
   const { data } = props;
   if (!data) return;
   return (
-    <div className={styles['tableContainer']}>
-      <table className={styles['table']}>
+    <div className={styles.tableContainer}>
+      <table className={styles.table}>
         <thead>
           <tr>
             <th>ID</th>

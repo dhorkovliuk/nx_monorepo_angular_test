@@ -26,8 +26,8 @@ export function Home() {
   }, []);
 
   return (
-    <div className={styles['wrapper']}>
-      <div className={styles['div']}>
+    <div className={styles.wrapper}>
+      <div className={styles.div}>
         <h2>Home Page</h2>
         <p>Welcome Home</p>
       </div>
