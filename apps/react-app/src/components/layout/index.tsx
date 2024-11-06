@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import { Navigation } from '../navigation';
+import { Navigation } from '@/components/navigation';
 
 export function Layout() {
   return (

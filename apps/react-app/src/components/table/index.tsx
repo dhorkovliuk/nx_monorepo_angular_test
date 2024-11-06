@@ -1,4 +1,4 @@
-import { formatDate } from '../../utils/fromatDate';
+import { formatDate } from '@/utils/fromatDate';
 import styles from './table.module.scss';
 
 export function Table(props: any) {
